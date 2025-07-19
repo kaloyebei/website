@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head lang="eng-US">
+      <title>MY WEB PAGE</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta name="description" content="Learn about html and CSS">
+      <meta name="keywords" content="HTML, CSS, Begginner, Tutorial">
+      <meta name="authour" content="Chris Mochere">
+      <link rel="stylesheet" href="Untitled-2.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    .container6{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: blanchedalmond;
+      align-items: center;
+      text-align: center;
+      border-radius: 6px;
+    }
+    .container6 .heading{
+      margin-top: 40px;
+      width: 50%;
+      padding-bottom: 50px;
+
+    }
+    .container6 .heading h3{
+      font-size: 3em;
+      font-weight: bolder;
+      padding-bottom: 10px;
+      border-bottom: 3px solid #222;
+    }
+    .container6 .heading h3 span{
+      font-weight: 100;
+    }
+    .container6 .photo-gallery{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .container6 .photo-gallery .dream{
+      display: flex;
+      flex-direction: column;
+      width: 32.5%;
+
+    }
+   .container6 .photo-gallery .dream img{
+      width: 400px;
+      padding-bottom: 11px;
+      border-radius: 5px;
+   }
+   .container6 .down-button{
+      margin: 40px 0 70px 0;
+      background:darkgoldenrod;
+      padding: 15px 40px;
+      border-radius: 5px;
+      cursor: pointer;
+   }
+   .container6 .down-button:hover{
+    background: rgb(2, 38, 2);
+    transition: 0.2s ease-in-out;
+    padding: 17px 43px;
+   }
+   .container6 .down-button a{
+      color: rgb(2, 38, 2);
+      text-decoration: none;
+      font-size: 1.35em;
+      font-weight: bold;
+      letter-spacing: 3px;
+   }
+   .container6 .down-button a:hover{
+    color: darkgoldenrod;
+    font-size: 1.4em;
+    transition: 0.2s ease-in-out;
+   }
+   @media only screen and (max-width:700px){
+  .container6 {
+    padding: 10px;
+  }
+
+  .container6 .heading h3 {
+    font-size: 2.0em;
+  }
+  .container6 .photo-gallery{
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+   }
+  .container6 .photo-gallery .dream{
+      width: 100%;
+  }
+  .container6 .photo-gallery .dream img{
+      width: 90%;
+      max-width: 300px;
+  }
+}
+   </style>
+  
+    </head>
+  <body>
+    <div class="container6">
+      <div class="heading">
+        <h3>PHOTO <span>GALLERY</span></h3>
+      </div>
+      <div class="photo-gallery">
+        <div class="dream">
+           <img src="gallery/008.jpg">
+            <img src="gallery/011.jpg">
+              <img src="gallery/006.jpg">
+                <img src="gallery/001.jpg">
+                  <img src="gallery/012.jpg">
+        </div>
+        <div class="dream">
+           <img src="gallery/000.jpg">
+            <img src="gallery/014.jpg">
+              <img src="gallery/005.jpg">
+                <img src="gallery/007.jpg">
+                  <img src="farm2.jpg">
+                    <img src="slide4.jpg">
+        </div>
+        <div class="dream">
+           <img src="gallery/002.jpg">
+            <img src="gallery/009.jpg">
+              <img src="gallery/004.jpg">
+                <img src="gallery/010.jpg">
+                  <img src="gallery/003.jpg">
+                    <img src="slide3.jpg">
+        </div>
+      </div>
+        <div class="down-button">
+          <a href="#">More</a>
+        </div>
+    </div>
+  </body>
+</html>

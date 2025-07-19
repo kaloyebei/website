@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head lang="eng-US">
+      <title>MY WEB PAGE</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <meta name="description" content="Learn about html and CSS">
+      <meta name="keywords" content="HTML, CSS, Begginner, Tutorial">
+      <meta name="authour" content="Chris Mochere">
+      <link rel="stylesheet" href="Untitled-2.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+      <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          outline: none;
+        }
+        .programs1{
+          width: 100%;
+          height: 120PX;
+          background-color: #02501a;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        .programs1 h2{
+          text-align: center;
+          color: #f59904;
+          font-size: 5em;
+          padding-top: 17.5px;
+
+        }
+        .programs-page{
+          background-color: bisque;
+          width: 100%;
+          height: 100%;
+          margin-top: 20px;
+          align-items: center;
+          justify-content: center;
+        }
+        .programs-page h3{
+          padding-top: 20px;
+          font-size: 2.5em;
+          color: #02501a;
+          text-align: center;
+          padding-bottom: 30px;
+        }
+        .flex1{
+          background-color: darkolivegreen;
+          display: grid;
+          width: 100%;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 8px;
+          border-radius: 8px;
+        }
+        .agric-text{
+          justify-content: space-between;
+          margin-top:20px;
+          border-style: none;
+          height: 400px;
+          width: 600px;
+          background-color: sandybrown;
+          border-radius: 10px;
+          margin-left: 20px;
+          margin-bottom: 20px;
+        }
+        .agric-text p{ 
+          width: 100%;
+          color: rgb(84, 2, 47);
+          font-size: 1.25em;
+          text-align: center;
+          align-content: flex-start;
+          padding: 30px;
+          text-align: start;
+        }
+        .program-list{
+          color: #02501a;
+          font-size: 1.0em;
+          margin-top: -10px;
+          margin-left: 40px;
+        }
+        
+        .agric-image img{
+          margin-top: 20px;
+          height: 400px;
+          width: 600px;
+          border-radius: 12px;
+        }
+        @media only screen and (max-width: 700px) {
+          .programs1{
+          width: 100%;
+          height: 100%;
+          background-color: #02501a;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        .programs1 h2{
+          text-align: center;
+          color: #f59904;
+          font-size: 2.8em;
+          padding-top: 8.5px;
+        }
+          .programs-page{
+          background-color: bisque;
+          width: 100%;
+          height: 100%;
+          margin-top: 15px;
+          align-items: center;
+          justify-content: center;
+        }
+        .programs-page h3{
+          padding-top: 10px;
+          font-size: 1.5em;
+          color: #02501a;
+          text-align: center;
+          padding-bottom: 20px;
+          border-radius: 5px;
+        }
+        .flex1{
+          background-color: darkolivegreen;
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+
+        }
+        .agric-text{
+          justify-content: space-between;
+          margin-top:10px;
+          border-style: none;
+          height: auto;
+          width: 95%;
+          background-color: sandybrown;
+          border-radius: 5px;
+          margin-left: 0;
+          margin-bottom: 5px;
+        }
+        .agric-text p{ 
+          width: 100%;
+          color: rgb(84, 2, 47);
+          font-size: 1.0em;
+          text-align: center;
+          align-content: flex-start;
+          padding: 20px;
+          text-align: start;
+        }
+        .program-list{
+          color: #02501a;
+          font-size: 0.945em;
+          margin-top: -10px;
+          margin-left: 40px;
+        }
+        
+        .agric-image img{
+          margin-top: 10px;
+          height: auto;
+          width: 95%;
+          border-radius: 7px;
+          align-items: center;
+          margin-left: 10px;
+        }
+        .agric-image img:hover{
+          opacity: 80%;
+          color: #02501a;
+        }
+        }
+      </style>
+    </head>
+  <body>
+    <div class="programs1">
+      <h2>OUR PROGRAMS</h2>
+    </div>
+    <div class="programs-page">
+      <h3>🌾AGRICULTURE & LIVELIHOOD DEVELOPMENT</h3>
+      <div class="flex1">
+        <div class="agric-text">
+          <p>
+              In Kalobeyei and its surrounding areas, agriculture is not just a way of life —
+              it is a lifeline. Yet, many young people in this region face barriers such as 
+              limited access to land, inputs, markets, and knowledge of modern farming techniques.
+              At KYIFA, we believe in the power of youth to transform their communities through 
+              sustainable agriculture.The goals of the program include: 
+          </p>
+          <div class="program-list">
+                
+                <li>Increase food production and reduce hunger in Kalobeyei.</li>
+                <li>Provide youth with hands-on training in sustainable agriculture.</li>
+                <li>Promote agribusiness and entrepreneurship opportunities.</li>
+                <li>Encourage environmentally friendly farming practices.</li>
+              
+          </div>
+     
+        </div>
+        <div class="agric-image">
+          <a href="#">
+            <img src="program2.jpg" alt="agriculture & livelihood development">
+          </a>
+        </div>
+
+      </div>
+    </div>
+     <div class="programs-page">
+      <h3>ENVIRONMENTAL PROTECTION</h3>
+      <div class="flex1">
+        <div class="agric-text">
+          <p>
+              The environment is the foundation of sustainable development.
+              In Kalobeyei, increasing deforestation, land degradation, and 
+              the impacts of climate change threaten both human and ecological well-being. 
+              At KYIFA, we believe that youth must be at the forefront of restoring and 
+              preserving the environment.Our Environmental Protection program aims to raise
+              awareness, build practical skills, and implement community-based solutions that 
+              promote environmental conservation, biodiversity protection, and climate resilience. 
+              The objective sof the program include:
+          </p>
+          <div class="program-list">
+                
+                <li>To restore degraded land through tree planting and conservation.</li>
+                <li>To promote environmental awareness and education within the community.</li>
+                <li>To empower youth as climate action leaders.</li>
+                <li>To reduce waste and promote sustainable practices.</li>
+              
+          </div>
+     
+        </div>
+        <div class="agric-image">
+          <a href="#">
+            <img src="programs02.jpg" alt="agriculture & livelihood development">
+          </a>
+        </div>
+
+      </div>
+    </div>
+     <div class="programs-page">
+      <h3>WATERSHED MANAGEMENT AND SANITATION</h3>
+      <div class="flex1">
+        <div class="agric-text">
+          <p>
+              Access to clean water and safe sanitation is a fundamental human right — 
+              yet many communities in Kalobeyei still face serious challenges in securing 
+              reliable water sources and maintaining hygienic living conditions. Seasonal droughts,
+              poor infrastructure, and limited hygiene awareness have led to water scarcity and 
+              increased health risks.
+              KYIFA’s Watershed Management & Sanitation program addresses these challenges head-on. 
+              We work with youth, local leaders, and partner organizations to improve water access, 
+              promote hygiene education, and build long-term solutions for water sustainability and 
+              sanitation across Kalobeyei and nearby regions.Program Goals include:
+          </p>
+          <div class="program-list">
+                
+                <li>To protect and sustainably manage local water sources and catchment areas.</li>
+                <li>To increase community access to clean, safe, and reliable water.</li>
+                <li>To improve sanitation and hygiene practices among youth and families.</li>
+                <li>To build local capacity in water conservation,  disease prevention.</li>
+                
+          </div>
+     
+        </div>
+        <div class="agric-image">
+          <a href="#">
+            <img src="programs03.jpg" alt="agriculture & livelihood development">
+          </a>
+        </div>
+
+      </div>
+    </div>
+     <div class="programs-page">
+      <h3>HUMANITARIAN EMERGENCY RESPONSE</h3>
+      <div class="flex1">
+        <div class="agric-text">
+          <p>
+              In times of crisis, the need for swift and organized response is critical. 
+              Kalobeyei and surrounding areas are often affected by natural disasters and 
+              humanitarian emergencies, including prolonged droughts, flash floods, disease 
+              outbreaks, and forced displacement.KYIFA plays a vital role in emergency response 
+              by mobilizing trained youth volunteers, distributing essential supplies, and working 
+              with partners to support the most vulnerable during and after emergencies.This program 
+              objectives include:
+          </p>
+          <div class="program-list">
+                
+                <li>Deliver timely humanitarian aid to affected communities.</li>
+                <li>Reduce the impact of disasters through preparedness and early response.</li>
+                <li>Support recovery through community-led rebuilding and psychosocial support.</li>
+                <li>Encourage environmentally friendly farming practices.</li>
+               
+          </div>
+     
+        </div>
+        <div class="agric-image">
+          <a href="#">
+            <img src="programs04.jpg" alt="agriculture & livelihood development">
+          </a>
+        </div>
+
+      </div>
+    </div>
+     <div class="programs-page">
+      <h3>GENDER EMPOWERMENT</h3>
+      <div class="flex1">
+        <div class="agric-text">
+          <p>
+              Women and girls in Kalobeyei face multiple layers of inequality — from limited 
+              access to education and healthcare, to early marriage, domestic violence, and 
+              lack of economic opportunities. KYIFA believes that empowering women is not 
+              just a moral responsibility, but a critical step toward building resilient, 
+              peaceful, and prosperous communities.Our Gender Empowerment Program works to close
+              the gender gap by promoting access to resources, education, leadership opportunities, 
+              and protection for women and girls. Through community-driven initiatives, 
+              KYIFA ensures that both women and men are included in decision-making and development. 
+          </p>
+          <div class="program-list">
+                
+                <li>To equip women and girls with skills to thrive socially and economically.</li>
+                <li>To combat gender-based violence (GBV) and support survivors.</li>
+                <li>To promote menstrual hygiene, reproductive health, and dignity.</li>
+                <li>To amplify the voices of women and support their leadership in community affairs.</li>
+                
+          </div>
+     
+        </div>
+        <div class="agric-image">
+          <a href="#">
+            <img src="programs01.jpg" alt="agriculture & livelihood development">
+          </a>
+        </div>
+
+      </div>
+    </div>
+     <div class="programs-page">
+      <h3>PEACE BUILDING & CONFLICT MITIGATION</h3>
+      <div class="flex1">
+        <div class="agric-text">
+          <p>
+              Kalobeyei and its surrounding areas are home to diverse communities — including refugees, 
+              host populations, and people from different ethnic and cultural backgrounds. 
+              While diversity is a strength, it can also lead to tensions over resources, land, 
+              and historical grievances.KYIFA’s Peacebuilding & Conflict Mitigation program 
+              recognizes that youth are both vulnerable to conflict and powerful agents of peace. 
+              Our mission is to empower youth and communities to prevent violence, resolve disputes 
+              peacefully, and promote coexistence through dialogue, education, and collaboration. 
+              Objectives include:
+          </p>
+          <div class="program-list">
+               
+                <li>Promote peaceful coexistence among diverse groups.</li>
+                <li>Prevent and resolve local conflicts through community-led mediation.</li>
+                <li>Train youth in nonviolent communication and conflict transformation.</li>
+                <li>Engage communities in peace dialogues and reconciliation efforts.</li>
+                <li>Use sports and culture as tools for unity and healing.</li>
+                
+          </div>
+     
+        </div>
+        <div class="agric-image">
+          <a href="#">
+            <img src="programs05.jpg" alt="agriculture & livelihood development">
+          </a>
+        </div>
+
+      </div>
+    </div>
+     <div class="programs-page">
+      <h3>SPORTS AND CULTURAL ACTIVITIES</h3>
+      <div class="flex1">
+        <div class="agric-text">
+          <p>
+              Sports and culture are powerful tools for building bridges, inspiring youth, 
+              and fostering peace. In Kalobeyei’s diverse and often underserved communities, 
+              young people face limited opportunities for creative expression, recreation, 
+              and cross-cultural engagement.KYIFA’s Sports & Cultural Activities Program 
+              provides inclusive platforms where youth from different backgrounds come together 
+              to play, express, and connect — promoting unity, resilience, and well-being.The objectives of the program include:
+          </p>
+          <div class="program-list">
+            
+                <li>To promote peaceful coexistence and mutual understanding through sports and arts.</li>
+                <li>To provide a safe space for youth to express talent, relieve stress, and build self-esteem.</li>
+                <li>To celebrate cultural diversity and foster social cohesion in refugee and host communities.</li>
+                <li>To engage youth in meaningful activities that prevent violence and substance abuse.</li>
+               
+          </div>
+     
+        </div>
+        <div class="agric-image">
+          <a href="#">
+            <img src="programs06.jpg" alt="agriculture & livelihood development">
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div class="container5">
+        <div class="final-box">
+          <div class="frame1">
+            <h3>CONTACT</h3>
+            <p>
+              <a href="tel:+254707841370">+254707841370</a><br/>
+              <a href="mailto:kaloybeyeiyouths00@gmail.com">kaloybeyeiyouths00@gmail.com</a>
+            </p>
+          
+          </div>
+          <div class="frame2">
+            <h3>MAIL</h3>
+            <p>
+              <a href="https://www.google.com/maps?q=Kalobeyei+Turkana+West+Turkana" target="_blank">
+              P.O BOX 30500,LODWAR<br/>TURKANA
+              </a>
+            </p>
+          
+          </div>
+          <div class="frame3">
+            <h3>FARMS</h3>
+            <p>
+              KALOBEYEI<br/>Turkana West Constituency, <br/>TURKANA.
+            </p>
+          
+          </div>
+          <div class="frame4">
+            <h3 class="inner-frame4">
+            <p>
+              <strong>FROM SEEDS TO SUCCESS:</strong> Youth farmers transform Kalobeyei.
+            </p>
+            </h3>
+          </div>
+          <div class="frame5">
+            <h3 class="d-button">
+              <a><button type="button" name="DONATE">DONATE</button></a>
+            </h3>
+            <p>
+            <a href="https://facebook.com" class="icon facebook" target="_blank">
+               <i class="fab fa-facebook-f"></i>
+            </a>
+             <a href="https://twitter.com" class="icon twitter" target="_blank">
+               <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://wa.me/+254707841370" class="icon whatsapp" target="_blank">
+               <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://youtube.com" class="icon youtube" target="_blank">
+               <i class="fab fa-youtube"></i>
+            </a>
+            </p> 
+          </div>
+        </div>
+      </div>
+      <div class="last-part">
+        <h2>
+          KALOBEYEI YOUTH INTERGRATED FARMERS(KYIFA)
+        </h2> 
+        <footer class="footer-bottom">
+           <p>
+            &copy;2025 KYIFA. Designed by <a href="https://wa.me/+254790407879" target="_blank">
+            CHRIMOTECH</a>
+           </p>
+        </footer>  
+      </div>
+  </body>
+</html>
